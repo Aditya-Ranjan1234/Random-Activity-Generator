@@ -1,0 +1,65 @@
+html {
+  height: 100vh;
+}
+
+* {
+  background-color: black;
+}
+
+body {
+  font-family: monospace;
+  height: 100%;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: purple;
+  text-align: center;
+}
+
+.Header {
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  color: purple;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.activity-result {
+  justify-content: center;
+  align-items: center;
+  color: purple;
+  font-family: Montserrat;
+}
+
+.form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 80px;
+  grid-column-gap: 10px;
+  color: white;
+}
+
+.form-submit {
+  outline: none;
+  border: 1px solid rgb(232, 232, 232);
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 36px;
+  grid-column-gap: 10px;
+  color: white;
+}
+
+button {
+  color: white;
+}
