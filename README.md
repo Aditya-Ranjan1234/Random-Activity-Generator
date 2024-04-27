@@ -1,31 +1,50 @@
-# Create React App
+# Random Activity Generator
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+This project is a web application that generates random activities and allows users to filter them based on different criteria. The activities are fetched from an external API and displayed to the user. 
 
-## Deploy Your Own
+## Technologies Used
 
-Deploy your own Create React App project with Vercel.
+- HTML
+- CSS
+- JavaScript
+- React
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+## Features
 
-_Live Example: https://create-react-template.vercel.app/_
+- **Random Activity Generation:** Users can generate random activities by clicking a button.
+- **Activity Filtering:** Users can filter activities based on various criteria such as type and participants.
+- **Responsive Design:** The application is responsive and works well on both desktop and mobile devices.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To run this project locally, follow these steps:
 
-### `npm start`
+1. Clone the repository:
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ```bash
+   git clone https://github.com/Aditya-Ranjan1234/Random_Activity_Generator.git
+   ```
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+2. Navigate to the project directory:
 
-### `npm test`
+   ```bash
+   cd Random_Activity_Generator
+   ```
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install dependencies:
 
-### `npm run build`
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.
+4. Start the development server:
 
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+   ```bash
+   npm start
+   ```
+
+## API Integration
+
+This project integrates with the following API:
+
+- **Random Activity API:** Used to fetch random activities. https://bored-api.appbrewery.com/
